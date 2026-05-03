@@ -3,10 +3,10 @@ import sys
 # --- TRIGGER: Secret Scanning ---
 # This looks like a standard AWS Access Key format
 # Slack Bot Token pattern (GitHub almost always catches this)
-SLACK_TOKEN = "xoxb-123456789012-123456789012-AaBbCcDdEeFfGgHhIiJjKkLl"
+# SLACK_TOKEN = "xoxb-123456789012-123456789012-AaBbCcDdEeFfGgHhIiJjKkLl"
 
 # Stripe Secret Key pattern
-STRIPE_KEY = "sk_test_4eC39HqLyjWDarjtT1zdp7dc"
+# STRIPE_KEY = "sk_test_4eC39HqLyjWDarjtT1zdp7dc"
 
 from flask import Flask, request
 
