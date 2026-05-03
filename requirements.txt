@@ -1,3 +1,11 @@
-flask==0.12.2
-requests==2.20.0
-jinja2==2.10
+# Vulnerable to ReDoS (Regular Expression Denial of Service)
+Flask==0.12.2
+
+# Vulnerable to Remote Code Execution (RCE) via YAML loading
+PyYAML==3.12
+
+# Vulnerable to CRLF injection
+requests==2.19.1
+
+# Vulnerable to XSS in templates
+Jinja2==2.10
