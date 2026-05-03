@@ -4,7 +4,7 @@ setup(
     name="security-lab",
     version="0.1",
     install_requires=[
-        "Flask==0.12.2",
+        "Flask==3.1.3",
         "requests==2.19.1",
         "PyYAML==3.12",
     ],
