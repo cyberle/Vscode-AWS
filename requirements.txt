@@ -2,7 +2,7 @@
 Flask==0.12.2
 
 # Vulnerable to Remote Code Execution (RCE) via YAML loading
-PyYAML==3.12
+PyYAML==6.0.3
 
 # Vulnerable to CRLF injection
 requests==2.19.1
